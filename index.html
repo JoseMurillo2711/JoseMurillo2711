@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio de José Murillo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+      background: #f4f4f4; color: #333;
+    }
+    header {
+      background: #333; color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+    }
+    header h1 { margin: 0.5rem 0 0; font-size: 2rem; }
+    header p { margin: 0.5rem 0 0.5rem; }
+
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+    section { margin-bottom: 2rem; }
+    section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .projects .project {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .projects .project h3 {
+      margin-top: 0;
+    }
+    .projects .project a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    .qr-container {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .qr-container img {
+      width: 150px; height: 150px;
+      border: 1px solid #ccc;
+    }
+
+    ul.tech-list {
+      list-style: none; padding-left: 0;
+    }
+    ul.tech-list li {
+      background: #fff;
+      margin-bottom: 0.5rem;
+      padding: 0.75rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Avatar opcional: coloca tu imagen en assets/avatar.jpg -->
+    <img src="assets/avatar.jpg" alt="Avatar de José Murillo" onerror="this.style.display='none'">
+    <h1>José Murillo</h1>
+    <p>Desarrollador de software especializado en Java, JavaFX, Odoo y desarrollo web.</p>
+  </header>
+
+  <main>
+    <!-- Sección de Proyectos -->
+    <section class="projects">
+      <h2>Proyectos Destacados</h2>
+
+      <div class="project">
+        <h3>1. Proyecto EDD (Java, Estructuras de Datos)</h3>
+        <p>Implementación de estructuras de datos (listas circulares, árboles binarios de decisión y búsqueda) y visualización en JavaFX con interfaz gráfica dinámica.</p>
+        <p><strong>Tecnologías:</strong> Java, JavaFX, OWL, Maven</p>
+        <p><a href="https://github.com/JoseMurillo2711/ProyectoEDD/" target="_blank">Ver repositorio en GitHub</a></p>
+      </div>
+
+      <div class="project">
+        <h3>2. Sistema TravelEase (Python, Odoo)</h3>
+        <p>Desarrollo de un módulo de gestión de viajes en Odoo 17, con integración de OpenPyXL para reportes en Excel y componentes OWL para la interfaz web.</p>
+        <p><strong>Tecnologías:</strong> Python, Odoo 17, OWL, OpenPyXL</p>
+        <p><a href="https://github.com/dimaboni/Sistema-TravelEase" target="_blank">Ver repositorio en GitHub</a></p>
+      </div>
+
+      <div class="project">
+        <h3>3. Lenguajes de Programación (Proyecto Final)</h3>
+        <p>Aplicación web multi-lenguaje que muestra vocabulario y sintaxis de distintos lenguajes de programación con ejemplos interactivos.</p>
+        <p><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript, Bootstrap</p>
+        <p><a href="https://github.com/jjroldev/LenguajesProgProyectoFinal" target="_blank">Ver repositorio en GitHub</a></p>
+      </div>
+    </section>
+
+    <!-- Sección de Tecnologías -->
+    <section class="technologies">
+      <h2>Tecnologías Aprendidas</h2>
+      <ul class="tech-list">
+        <li><strong>Java & JavaFX:</strong> Desarrollo de aplicaciones de escritorio con interfaces gráficas dinámicas.</li>
+        <li><strong>Estructuras de Datos:</strong> Listas circulares, árboles binarios de búsqueda y decisión.</li>
+        <li><strong>Python & Odoo:</strong> Creación de módulos, reportes en Excel y uso de OWL para componentes web.</li>
+        <li><strong>HTML5, CSS3, JavaScript:</strong> Construcción de sitios web responsivos y dinámicos.</li>
+        <li><strong>OpenPyXL:</strong> Generación y manipulación de archivos de Excel desde Python.</li>
+        <li><strong>OWL (Odoo Web Library):</strong> Desarrollo de componentes interactivos en el cliente de Odoo.</li>
+      </ul>
+    </section>
+
+    <!-- Entregables: QR y URL -->
+    <section class="entregables">
+      <h2>Entregables</h2>
+      <p><strong>URL del sitio:</strong> <a href="https://josemurillo2711.github.io/tu-repo/" target="_blank">https://josemurillo2711.github.io/tu-repo/</a></p>
+      <div class="qr-container">
+        <!-- Genera un QR con tu URL y nómbralo qr.png en assets/ -->
+        <img src="assets/qr.png" alt="QR del sitio">
+        <p>Escanea para visitar mi portafolio</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
 
